@@ -15,6 +15,7 @@ const countChar = (word,char) => {
 
 
 
-
-count= (countChar("Stunning","n"));
-console.log(`The Character n ocurred ${count} times in the word Stunning`);
+let word= "Stunning";
+let char='u';
+count= (countChar(word,char));
+console.log(`The Character ${char} ocurred ${count} times in the word ${word}`);
