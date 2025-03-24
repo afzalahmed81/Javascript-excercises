@@ -1,4 +1,4 @@
-// --------Practic 07: function that finds maximum number from array of numbers-------
+// --------Practice 07: function that finds maximum number from array of numbers-------
 
 const findMax = (arr) => {
     // Method 1
