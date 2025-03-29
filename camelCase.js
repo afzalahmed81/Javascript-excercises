@@ -1,4 +1,4 @@
-// --------Practice 17: function that finds minimum number from array of numbers-------
+// --------Practice 17-A: function that converts a string into camel case-------
 
 const toCamelCase = (str) => {
     return str
