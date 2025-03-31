@@ -1,7 +1,7 @@
 // --------Practice 20: function that reverses a string-------
 
 const reverseString = (str) => {
-    // return str.trim().split("")
+    // return str.trim().split("")           // arr.reverse() method reverses the original array, so we dont use it here
     //     .map((_, index, array) => array[array.length - 1 - index])
     //     .join("");
 
