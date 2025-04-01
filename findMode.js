@@ -7,7 +7,7 @@ const findMode = (arr) => {
     let mode;
     for (let element of arr) {
         counts[element] = (counts[element] || 0) +1 ;
-        if (counts[element]> maxNum) {
+        if (counts[element] > maxNum) {
             maxNum = counts[element];
             mode= element;
         }
