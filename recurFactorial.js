@@ -6,11 +6,14 @@ const factorial = (num) => {
     } else {
         return num * factorial(num-1) ;     // recursive case
     }
+
+    
 }
 
 
 
 
 
-console.log(factorial(5));
+
+console.log(factorial(4));
 console.log(factorial(1));

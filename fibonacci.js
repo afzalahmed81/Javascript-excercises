@@ -1,6 +1,6 @@
 // --------Practice 26,: function that displays fibonacci series upto a number------
 
-const printFibonacci = (num) => {
+    const printFibonacci = (num) => {
     if (num < 0) return;     // base case
 
     let series = [];
@@ -13,6 +13,16 @@ const printFibonacci = (num) => {
     }
 
     console.log(series.join(" , "));
-};
 
-printFibonacci(2);
+    // Method 2 , using recursion
+    // if (num <= 1) {   // base case
+    //     return num
+    // } else {
+    //     return printFibonacci(num-1) + printFibonacci(num-2) ; // recursive case
+    // }
+
+
+};
+// console.log(printFibonacci(5));
+
+printFibonacci(5);
