@@ -1,4 +1,4 @@
-// --------Practice 25: function that finds factorial of a number using recursive function-------
+// --------Practice 25: function that finds factorial of a number using recursive function------
 
 const factorial = (num) => {
     if (num===1 || num ===0) {            // base case
