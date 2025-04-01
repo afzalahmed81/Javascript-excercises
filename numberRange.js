@@ -13,4 +13,4 @@ const numRange = (start, end,arr=[]) => {
     return arr.join(" , ") ;
 }
 
-console.log(numRange(0,6));
+console.log(numRange(-4,2));
