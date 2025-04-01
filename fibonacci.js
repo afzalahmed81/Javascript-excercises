@@ -1,4 +1,4 @@
-// --------Practice 25: function that displays fibonacci series upto a number-------
+// --------Practice 26,: function that displays fibonacci series upto a number------
 
 const printFibonacci = (num) => {
     if (num < 0) return;     // base case
