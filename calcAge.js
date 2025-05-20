@@ -6,7 +6,7 @@ const calcAge = (birthDate) => {
     let age = curDate.getFullYear() - birthDate.getFullYear() ;
     let monthDiff = curDate.getMonth() - birthDate.getMonth();
         if (monthDiff < 0 || monthDiff === 0 && curDate.getDate() < birthDate.getDate()) {
-            agg--;
+            age--;
         }
         return age;
 }
