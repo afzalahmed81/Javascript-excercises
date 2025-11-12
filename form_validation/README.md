@@ -8,6 +8,9 @@ It validates user input for username, phone number, email, password, and confirm
 ## 🌐 Live Demo
 🔗 **[View on Vercel](https://formvalidation-j8m3dji64-afzal-ahmeds-projects-ab0e0e45.vercel.app/)**
 
+### 📸 Screenshot Preview
+![Registration Form Preview](images/form_screenshot.png)
+
 ---
 
 ## 📁 Project Structure
